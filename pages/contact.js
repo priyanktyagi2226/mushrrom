@@ -12,6 +12,7 @@ import ContactBanner from "../components/contactBanner";
 import Newsletter from '../components/newsletter';
 import ContactForm from '../components/contactForm';
 
+
 export default function Contact() {
 
     return (

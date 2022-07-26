@@ -48,19 +48,28 @@ const Banner = () => {
             <div className="brand-text">We love our brand</div>
             <div className="hero-slider owl-carousel">
             <Slider {...settings}>
-                <div className="hero-slider-item set-bg" data-setbg="/img/slider-bg-1.webp">
+                <div className="hero-slider-item set-bg" data-setbg="/img/slider1.jpg">
                     <div className="hs-content">
                         <div className="container">
-                            <h2>Fashionista</h2>
+                            <h2>Mushroom</h2>
                             <a href="#" className="site-btn sb-white">Read More</a>
                             <a href="#" className="site-btn">Read More</a>
                         </div>
                     </div>
                 </div>
-                <div className="hero-slider-item set-bg" data-setbg="/img/slider-bg-1.webp">
+                <div className="hero-slider-item set-bg" data-setbg="/img/mush4.jpg">
                     <div className="hs-content">
                         <div className="container">
-                            <h2>Fashionista</h2>
+                            <h2>Mushroom</h2>
+                            <a href="#" className="site-btn sb-white">Read More</a>
+                            <a href="#" className="site-btn">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div className="hero-slider-item set-bg" data-setbg="/img/mush1.jpg">
+                    <div className="hs-content">
+                        <div className="container">
+                            <h2>Mushroom</h2>
                             <a href="#" className="site-btn sb-white">Read More</a>
                             <a href="#" className="site-btn">Read More</a>
                         </div>

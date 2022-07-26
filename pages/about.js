@@ -40,7 +40,7 @@ export default function About() {
 
             <Header></Header>
             <div>
-                <section className="page-info-section set-bg" data-setbg="/img/about.webp">
+                <section className="page-info-section set-bg" data-setbg="/img/mush4.jpg">
                     <h2>The Brand</h2>
                 </section>
 

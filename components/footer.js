@@ -10,15 +10,34 @@ import Image from 'next/image'
 
 const Footer = () => {
    useEffect(() => {
+   
     $(".loader").fadeOut();
     $("#preloder").delay(400).fadeOut("slow");
-    $('.header-section .container').append('<div class="mobile-nav-switch"><i class="fa fa-bars"></i></div><ul class="mobile-menu"></ul>')
-     var m1 = $('.main-menu-left ').children().clone();
-     var m2 = $('.main-menu-right ').children().clone();
-     $('.mobile-menu').append(m1,m2);
-     $('.mobile-nav-switch').on('click', function () {
-         $('.mobile-menu').slideToggle();
-     });
+    // $('.header-section .container').append('<div class="mobile-nav-switch"><i class="fa fa-bars"></i></div><ul class="mobile-menu"></ul>')
+    //  var m1 = $('.main-menu-left ').children().clone();
+    //  var m2 = $('.main-menu-right ').children().clone();
+    //  $('.mobile-menu').append(m1,m2);
+    //  $('.mobile-nav-switch').on('click', function () {
+    //      if($(".mobile-menu").css('display') == 'none'){
+    //         $('.mobile-menu').slideDown();
+    //      }
+    //      if($(".mobile-menu").css('display') == 'block'){
+    //         $('.mobile-menu').slideUp();
+    //      }
+        
+         
+    //  });
+//     $(document).ready(function(){
+//     $(".hamburguremenu").on('click', function () {
+//         $(".mobile-menu").toggleClass('active');
+//         $(".hamburguremenu").toggleClass("toggle");
+//     })
+//    })
+      
+    // $(".hamburguremenu.toggle").on('click', function () {
+    //     $(".mobile-menu").removeClass('active');
+    //     $(".hamburguremenu").removeClass("toggle");
+    // })
     $('.set-bg').each(function() {
         var bg = $(this).data('setbg');
         $(this).css('background-image', 'url(' + bg + ')');
@@ -43,8 +62,10 @@ const Footer = () => {
         PorfolioItemFix();
     });
 
+    // Fancybox Config
+  
     
-   },[])
+   })
    
    
     return (
@@ -85,6 +106,7 @@ const Footer = () => {
             </div>
 
             <Script src="https://use.fontawesome.com/1ae56ae90f.js"></Script>
+            
            
         </>
     )

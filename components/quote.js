@@ -4,8 +4,8 @@ const Quote = () => {
             <section className="quote-section">
                 <div className="container">
                     <div className="quote-text text-center">
-                        <p>&quot;Fashion is about dressing according to whats fashionable. Style is more about being yourself.&quot;</p>
-                        <h3>—Oscar de la Renta</h3>
+                        <p>&quot;A meal without mushrooms is like a day without rain.&quot;</p>
+                        <h3>—John Cage</h3>
                     </div>
                 </div>
             </section>
